@@ -24,6 +24,12 @@
     <ClCompile Include="histogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rgbhistogram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -32,7 +38,13 @@
     <ClInclude Include="imge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="rgbhistogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="histogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericUp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

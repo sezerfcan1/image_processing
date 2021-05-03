@@ -82,6 +82,8 @@
     <ClCompile Include="histogram.cpp" />
     <ClCompile Include="imge.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="NumericUp.cpp" />
+    <ClCompile Include="rgbhistogram.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="histogram.h">
@@ -91,13 +93,22 @@
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="NumericUp.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="rgbhistogram.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="histogram.resx">
-      <DependentUpon>histogram.h</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericUp.resx">
+      <DependentUpon>NumericUp.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rgbhistogram.resx">
+      <DependentUpon>rgbhistogram.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

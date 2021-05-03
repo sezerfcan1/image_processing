@@ -24,12 +24,12 @@ namespace Form_Empty {
 
 			for (int i = 0; i < 256; i++)
 			{
-	
+
 				chart1->Series["Color"]->Points->AddXY(i.ToString(), y[i].ToString());
 			}
 
 
-			
+
 
 
 		}
@@ -52,7 +52,7 @@ namespace Form_Empty {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
