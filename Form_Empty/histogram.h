@@ -15,7 +15,7 @@ namespace Form_Empty {
 	public ref class histogram : public System::Windows::Forms::Form
 	{
 	public:
-		histogram(int y[])
+		histogram(unsigned int y[])
 		{
 			InitializeComponent();
 			//
@@ -24,13 +24,8 @@ namespace Form_Empty {
 
 			for (int i = 0; i < 256; i++)
 			{
-
 				chart1->Series["Color"]->Points->AddXY(i.ToString(), y[i].ToString());
 			}
-
-
-
-
 
 		}
 
@@ -99,9 +94,4 @@ namespace Form_Empty {
 		}
 #pragma endregion
 	};
-
-
-
-
-
 }

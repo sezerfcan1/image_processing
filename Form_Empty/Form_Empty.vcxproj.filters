@@ -18,16 +18,16 @@
     <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="imge.cpp">
+    <ClCompile Include="Images.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="histogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rgbhistogram.cpp">
+    <ClCompile Include="Box.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NumericUp.cpp">
+    <ClCompile Include="HuMoment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,16 +35,16 @@
     <ClInclude Include="MyForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="imge.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="rgbhistogram.h">
+    <ClInclude Include="Images.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="histogram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NumericUp.h">
+    <ClInclude Include="Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HuMoment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
